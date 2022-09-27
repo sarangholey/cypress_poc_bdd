@@ -1,0 +1,20 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.0.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

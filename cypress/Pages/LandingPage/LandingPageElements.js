@@ -1,0 +1,16 @@
+export const LandingPageElements = {
+    landingPageLogo: '//header//img[@class="logoClass"]',
+    landingPageText: '//body//h1[text()="Practice Page"]',
+    dropdownElement:'//select[@id="dropdown-class-example"]',
+    autoCompleteTextElement: '//input[@id="autocomplete"]',
+    suggestionTextElement: '//li[@class="ui-menu-item"]//div',
+    alertButton: '//input[@value="Alert"]',
+    newWindowButtonElement: 'button[id=openwindow]',
+    fixedDataTableHeader: '//div[@class="right-align"]//fieldset/legend[text()="Web Table Fixed header"]',
+    //fixedDataTableColumns: '//div[@class="tableFixHead"]//table[@id="product"]//th',
+    fixedDataTableColumns1: '//div[@class="tableFixHead"]//table[@id="product"]//th[1]',
+    fixedDataTableColumns2: '//div[@class="tableFixHead"]//table[@id="product"]//th[2]',
+    fixedDataTableColumns3: '//div[@class="tableFixHead"]//table[@id="product"]//th[3]',
+    fixedDataTableColumns4: '//div[@class="tableFixHead"]//table[@id="product"]//th[4]',
+    landingPageHeader: '//header[@class="jumbotron text-center header_style"]',
+}

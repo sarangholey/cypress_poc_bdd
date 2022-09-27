@@ -1,0 +1,19 @@
+{
+    "baseUrl":"https://rahulshettyacademy.com/AutomationPractice",
+    "env":{
+      "viewportHorizontal": 1366,
+      "viewportVertical": 768
+    },
+    "chromeWebSecurity" : false,
+    "testFiles": "**/*.feature",
+    "reporter": "cypress-mochawesome-reporter",
+        "reporterOptions": {
+          "reportDir": "cypress/report",
+          "charts": false,
+          "code": false,
+          "reportPageTitle": "ORANGE HRM TEST AUTOMATION",
+          "reportFilename": "[status]_[datetime]-[name]-report",
+          "timestamp": "longDate",
+          "overwrite": false
+        }
+}
